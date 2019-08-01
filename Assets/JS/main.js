@@ -13,7 +13,7 @@ function PreviousSlide() {
 
 //show the slide with the number of slideIndex
 function ShowSlide(slideIndex) {
-     const slides = document.getElementsByClassName("prideslides");
+     const slides = document.getElementsByClassName("prideslide");
      let currentslide = slideIndex;
 
      //return to first slide
@@ -30,7 +30,7 @@ function ShowSlide(slideIndex) {
      for (let i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
      }
-
+     //  console.log(slides);
      //display current slide
      slides[slideIndex].style.display = "block";
 }
