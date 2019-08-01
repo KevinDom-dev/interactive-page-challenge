@@ -22,7 +22,7 @@ function ShowSlide(slideIndex) {
      }
 
      //display current slide
-     slides[slideIndex].style.display = "block";
+     slides[slideIndex - 1].style.display = "block";
 }
 
 const prev = document.querySelector(".prev");
@@ -42,4 +42,4 @@ function PreviousSlide() {
 }
 
 //go to next slide every 5s
-setInterval(NextSlide, 5000);
+// setInterval(NextSlide, 5000);
