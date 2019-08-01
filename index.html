@@ -8,6 +8,7 @@
     <link href="./Assets/CSS/style.css"
           rel="stylesheet"
           type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <title>Pride Europe</title>
 </head>
 <body>
@@ -15,31 +16,31 @@
     <img alt="Logo" src="./Assets/IMG/Logo.jpg">
     <h1>Pride Europe</h1>
 </header>
-<div id="prideshow">
+<div id="prideshow" class="clearfix">
     <div class="prideslide">
-        <img alt="dutchpride" src="./Assets/IMG/panorama.jpg" style="width:100%">
+        <img alt="dutchpride" src="./Assets/IMG/panorama.jpg" >
     </div>
     <div class="prideslide">
-        <img alt="hands" src="./Assets/IMG/Panorama1.jpg" style="width: 100%">
+        <img alt="hands" src="./Assets/IMG/Panorama1.jpg" >
     </div>
     <div class="prideslide">
-        <img alt="banner" src="./Assets/IMG/Panorama2.jpg" style="width: 100%">
+        <img alt="banner" src="./Assets/IMG/Panorama2.jpg">
     </div>
     <a class="prev">&#10094;</a>
     <a class="next">&#10095;</a>
 </div>
 <div id="tabs">
-    <button class="button1">summary</button>
-    <button class="button2">info</button>
-    <button class="button3">form</button>
+    <button id="button1">summary</button>
+    <button id="button2">info</button>
+    <button id="button3">form</button>
 </div>
-<div id="summary">
+<div id="summary" class="tabs">
     <h2>summary</h2>
 </div>
-<div id="info">
+<div id="info" class="tabs" >
     <h2>info</h2>
 </div>
-<div id="form">
+<div id="form" class="tabs">
     <h2>form</h2>
 </div>
 </body>
