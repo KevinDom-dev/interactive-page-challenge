@@ -1,5 +1,21 @@
+*{
+    margin: 0;
+    font-size: 16px;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+header img{
+    height: 90%;
+    width: auto;
+    margin: 5px;
+
+}
 #prideshow{
-    max-width: 1000px;
+    width: 100vw;
     position: relative;
     margin: auto;
 }
@@ -24,4 +40,13 @@
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+#summary{
+    background-color: #4CAF50;
+}
+#info{
+    background-color:blue;
+}
+#form{
+    background-color:orangered;
 }
