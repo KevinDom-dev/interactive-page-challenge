@@ -63,13 +63,15 @@ header img{
 #form{
     background-color:orangered;
 }
-.tabs{
+#tabs{
     border: none;
+    background-color:red;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    position: center;
 }
 h2{
-
+font: 1.5rem 'Quattrocento Sans', sans-serif;
 }
-#summary{
-
-}
-#info
