@@ -60,17 +60,21 @@ header img{
 #info{
     background-color:blue;
 }
-#form{
+#newsletter{
     background-color:orangered;
 }
 #tabs{
     border: none;
     background-color:red;
-    padding: 15px 15px;
+    padding: 10px 15px;
     text-align: center;
     display: inline-block;
     width: 100vw;
 }
 h2{
 font: 1.5rem 'Quattrocento Sans', sans-serif;
+    text-align:center;
+}
+footer.p{
+    text-align: center;
 }
