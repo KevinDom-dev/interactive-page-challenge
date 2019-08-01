@@ -20,23 +20,25 @@ header img{
 
 #prideshow{
     height: 50vh;
-    width: 100vw;
     overflow: hidden;
     position: relative;
+    width: 100vw;
 }
 
 .prideslide{
-    height: 300px;
+    object-fit: contain;
+
 }
 .prideslide img{
     position: absolute;
     top: 0;
     bottom: 0;
-    width: max-content;
+    height: 100%;
 }
 
 .prev, .next{
-    cursor: pointer;
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 50%;
     width: auto;
@@ -46,9 +48,7 @@ header img{
     color: white;
     font-weight: lighter;
     font-size: 30px;
-    transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
 }
 .next {
     right: 0;
@@ -62,4 +62,7 @@ header img{
 }
 #form{
     background-color:orangered;
+}
+.tabs{
+    border: none;
 }
