@@ -66,11 +66,10 @@ header img{
 #tabs{
     border: none;
     background-color:red;
-    color:white;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     display: inline-block;
-    position: center;
+    width: 100vw;
 }
 h2{
 font: 1.5rem 'Quattrocento Sans', sans-serif;
