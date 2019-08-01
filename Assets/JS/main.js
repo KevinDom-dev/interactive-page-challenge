@@ -47,14 +47,27 @@ btn2.addEventListener("click", function() {
      display("info");
 });
 btn3.addEventListener("click", function() {
-     display("form");
+     display("newsletter");
 });
 btn1.click();
-function display(tab) {
-     const tabs = document.getElementsByClassName("tabs");
+function display(tabname) {
+     const tabs = document.getElementsByClassName("tab");
      for (let i = 0; i < tabs.length; i++) {
           tabs[i].style.display = "none";
      }
-     document.getElementById(tab).style.display = "block";
-     console.log("lol", tab);
+     document.getElementById(tabname).style.display = "block";
 }
+
+// form
+
+const form = document.getElementById("form");
+form.addEventListener("submit", validate);
+function validate() {
+     if (x == "") {
+          alert("Name must be filled out");
+
+          return false;
+     }
+}
+
+console.log(form, "lol");
