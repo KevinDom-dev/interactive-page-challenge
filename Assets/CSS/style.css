@@ -1,1 +1,6 @@
-font-family: 'Dancing Script', cursive;
+#prideshow{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
