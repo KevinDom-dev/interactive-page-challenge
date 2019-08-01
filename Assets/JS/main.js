@@ -2,9 +2,9 @@ let slideIndex = 1;
 ShowSlide(slideIndex);
 
 //show the slide with the number of slideIndex
-function ShowSlide(slideIndex) {
+function ShowSlide(Index) {
      const slides = document.getElementsByClassName("prideslide");
-     let currentslide = slideIndex;
+     let currentslide = Index;
 
      //return to first slide
      if (currentslide > slides.length) {
