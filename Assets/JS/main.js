@@ -42,4 +42,4 @@ function PreviousSlide() {
 }
 
 //go to next slide every 5s
-// setInterval(NextSlide, 5000);
+setInterval(NextSlide, 5000);
